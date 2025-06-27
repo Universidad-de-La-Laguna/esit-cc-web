@@ -1,23 +1,23 @@
-title: "Guías, recursos del Centro de Cálculo de la ESIT"
-description: "Guías y recursos para estudiantes de IT"
-theme: minima
-# Otras opciones de tema: jekyll-theme-cayman, jekyll-theme-slate
+title: "Centro de Cálculo ESIT"
+description: "Knowledge Base para estudiantes de IT"
+url: "https://universidad-de-la-laguna.github.io"
+baseurl: "/esit-cc-web"
 
-# Configuración del sitio
-baseurl: "" # si tu repo se llama diferente, déjalo vacío
-url: "https://Universidad-de-La-Laguna.github.io"
+# Tema moderno - elige uno:
+remote_theme: pages-themes/cayman@v0.2.0        # Limpio y profesional
+# remote_theme: pages-themes/architect@v0.2.0    # Más técnico
+# remote_theme: pages-themes/slate@v0.2.0        # Oscuro y elegante
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
-# Navegación
-header_pages:
-  - guias-instalacion/index.md
-  - articulos-it/index.md
-  - recursos/index.md
+# Colores personalizados (para tema Cayman)
+cayman:
+  project_name: "Knowledge Base IT"
+  project_tagline: "Recursos y guías del Centro de Cálculo"
 
-# Configuración de markdown
-markdown: kramdown
-highlighter: rouge
+# SEO
+lang: es
+author: "Centro de Cálculo ESIT"
