@@ -1,0 +1,23 @@
+title: "Guías, recursos del Centro de Cálculo de la ESIT"
+description: "Guías y recursos para estudiantes de IT"
+theme: minima
+# Otras opciones de tema: jekyll-theme-cayman, jekyll-theme-slate
+
+# Configuración del sitio
+baseurl: "" # si tu repo se llama diferente, déjalo vacío
+url: "https://Universidad-de-La-Laguna.github.io"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navegación
+header_pages:
+  - guias-instalacion/index.md
+  - articulos-it/index.md
+  - recursos/index.md
+
+# Configuración de markdown
+markdown: kramdown
+highlighter: rouge
