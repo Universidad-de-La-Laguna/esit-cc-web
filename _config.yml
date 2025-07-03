@@ -6,10 +6,10 @@
 # =============================================================================
 
 # Site settings
-title: Centro de Cálculo ESIT
-tagline: Knowledge Base para estudiantes de IT
+title: Centro de Cálculo 
+tagline: Escuela Superior de Ingeniería y Tecnología
 description: >-
-  Recursos, guías y artículos sobre tecnología para estudiantes de la Escuela Superior de Ingeniería y Tecnología.
+  Servicios, recursos, guías y artículos.
 url: 'https://universidad-de-la-laguna.github.io'
 baseurl: '/esit-cc-web'
 lang: es
@@ -29,6 +29,11 @@ collections:
   tabs:
     output: true
     sort_by: order
+
+# Tabs
+tabs:
+  # Disable the default Home tab
+  home: false
 
 # Defaults
 defaults:
