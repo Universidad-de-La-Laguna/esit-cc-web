@@ -1,23 +1,70 @@
-title: "Centro de Cálculo ESIT"
-description: "Knowledge Base para estudiantes de IT"
-url: "https://universidad-de-la-laguna.github.io"
-baseurl: "/esit-cc-web"
+#
+# =============================================================================
+# Chirpy - A minimal, responsive, and feature-rich Jekyll theme.
+# © 2019 Cotes Chung
+# MIT License
+# =============================================================================
 
-# Tema moderno - elige uno:
-remote_theme: pages-themes/cayman@v0.2.0        # Limpio y profesional
-# remote_theme: pages-themes/architect@v0.2.0    # Más técnico
-# remote_theme: pages-themes/slate@v0.2.0        # Oscuro y elegante
+# Site settings
+title: Centro de Cálculo ESIT
+tagline: Knowledge Base para estudiantes de IT
+description: >-
+  Recursos, guías y artículos sobre tecnología para estudiantes de la Escuela Superior de Ingeniería y Tecnología.
+url: 'https://universidad-de-la-laguna.github.io'
+baseurl: '/esit-cc-web'
+lang: es
+author: Centro de Cálculo ESIT
 
+# Theme
+theme: jekyll-theme-chirpy
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
+  - jekyll-seo-tag
 
-# Colores personalizados (para tema Cayman)
-cayman:
-  project_name: "Knowledge Base IT"
-  project_tagline: "Recursos y guías del Centro de Cálculo"
+# Collections
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# Defaults
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /:title/
+  - scope:
+      path: ''
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
 
 # SEO
-lang: es
-author: "Centro de Cálculo ESIT"
+twitter:
+  username: ULL
+
+# Avatar
+avatar: 'https://www.ull.es/portal/wp-content/uploads/2023/02/marca-ULL-horizontal-basica.png' # Logo de la ULL
+
+# Social
+social:
+  name: Centro de Cálculo ESIT
+  email: ccalculo.esit@ull.edu.es
+  links:
+    - https://twitter.com/ULL
+    - https://github.com/Universidad-de-la-Laguna
+
+# Comments (opcional, puedes configurar Disqus)
+# disqus:
+#   shortname: # tu-shortname-de-disqus
+
+# Analytics (opcional)
+# google_analytics: # tu-id-de-google-analytics
