@@ -1,7 +1,8 @@
 ---
-title: Artículos
-icon: fas fa-newspaper
-order: 3
+title: Historial
+icon: fas fa-archive
+order: 5
+layout: archives
 ---
 
 # Artículos de Interés

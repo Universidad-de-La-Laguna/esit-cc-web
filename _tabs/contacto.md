@@ -1,7 +1,7 @@
 ---
-title: Inicio
-icon: fas fa-home
-order: 1
+title: Contacto
+icon: fas fa-id-card
+order: 6
 ---
 
 # Bienvenido a la Knowledge Base IT

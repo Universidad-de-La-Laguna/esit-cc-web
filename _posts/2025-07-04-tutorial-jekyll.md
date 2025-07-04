@@ -72,7 +72,7 @@ bundle exec jekyll serve
 
 ### Estructura completa de un sitio Jekyll:
 
-```
+```bash
 mi-sitio-jekyll/
 ├── _config.yml                 # Configuración principal
 ├── _config_development.yml     # Configuración para desarrollo
