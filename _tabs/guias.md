@@ -1,7 +1,7 @@
 ---
 title: Guías
 icon: fas fa-book
-order: 2
+order: 3
 ---
 
 # Guías de Instalación
