@@ -1,3 +1,0 @@
-# Hello World!
-
-This is the home page of my new Jekyll site.
