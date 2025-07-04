@@ -36,7 +36,7 @@ collections:
 
 # Tabs
 tabs:
-  # Disable the default Home tab
+  # Setting 'home: false' disables the Home tab in the navigation bar
   home: false
 
 # Defaults
@@ -65,16 +65,16 @@ twitter:
   username: ULL
 
 # Avatar
-avatar: '/assets/img/marca-esit.png' # Logo de la ULL
+avatar: '/assets/img/marca-ull-circulo.svg' # Logo de la ULL
 
 # Social
 social:
   name: Centro de Cálculo
-  email: ccalculo.esit@ull.edu.es
-  links:
-    - https://twitter.com/ULL
-    - https://github.com/Universidad-de-la-Laguna
-
+  email: ccesit@ull.edu.es
+#  links:
+#    - https://twitter.com/ULL
+#    - https://github.com/Universidad-de-la-Laguna
+#
 # Comments (opcional, puedes configurar Disqus)
 # disqus:
 #   shortname: # tu-shortname-de-disqus
