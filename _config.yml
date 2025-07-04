@@ -37,7 +37,7 @@ collections:
 # Tabs
 tabs:
   # Disable the default Home tab
-  home: true
+  home: false
 
 # Defaults
 defaults:
@@ -65,7 +65,7 @@ twitter:
   username: ULL
 
 # Avatar
-avatar: '/assets/img/marca-ull-circulo.svg' # Logo de la ULL
+avatar: '/assets/img/marca-esit.png' # Logo de la ULL
 
 # Social
 social:
