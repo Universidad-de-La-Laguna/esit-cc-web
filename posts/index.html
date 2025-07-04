@@ -1,0 +1,30 @@
+---
+layout: default
+title: Todas las Publicaciones
+pagination:
+  enabled: true
+---
+
+# Todas las Publicaciones
+
+{% for post in paginator.posts %}
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">Anterior</a>
+  {% else %}
+    <span class="previous">Anterior</span>
+  {% endif %}
+
+  <span class="page_number ">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="next">Siguiente</a>
+  {% else %}
+    <span class="next">Siguiente</span>
+  {% endif %}
+</div>

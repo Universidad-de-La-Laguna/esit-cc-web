@@ -23,12 +23,16 @@ plugins:
   
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Collections
 collections:
   tabs:
     output: true
     sort_by: order
+  posts:
+    output: true
+    permalink: /posts/:title/
 
 # Tabs
 tabs:
@@ -44,7 +48,7 @@ defaults:
       layout: post
       comments: true
       toc: true
-      permalink: /:title/
+      permalink: /posts/:title/
   - scope:
       path: ''
       type: tabs
@@ -52,21 +56,25 @@ defaults:
       layout: page
       permalink: /:title/
 
+# Pagination
+paginate: 5 # Number of posts per page
+paginate_path: /posts/page:num/
+
 # SEO
 twitter:
   username: ULL
 
 # Avatar
-avatar: '/assets/img/marca-ull-circulo.svg' # Logo de la ULL
+avatar: '/assets/img/marca-esit.png' # Logo de la ULL
 
 # Social
 social:
   name: Centro de Cálculo
-  email: ccesit@ull.edu.es
-#  links:
-#    - https://twitter.com/ULL
-#    - https://github.com/Universidad-de-la-Laguna
-#
+  email: ccalculo.esit@ull.edu.es
+  links:
+    - https://twitter.com/ULL
+    - https://github.com/Universidad-de-la-Laguna
+
 # Comments (opcional, puedes configurar Disqus)
 # disqus:
 #   shortname: # tu-shortname-de-disqus
