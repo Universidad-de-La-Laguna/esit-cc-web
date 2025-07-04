@@ -1,1 +1,11 @@
+title: ESIT - Centro de Cálculo
+description: >-
+  Servicios, recursos, guías y artículos del Centro de Cálculo de la Escuela Superior de Ingeniería y Tecnología de la Universidad de La Laguna.
+author: Centro de Cálculo ESIT
+
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
