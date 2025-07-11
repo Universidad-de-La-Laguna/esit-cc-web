@@ -1,5 +1,5 @@
 ---
-title: blog
+title: Blog
 icon: fas fa-rss
 order: 5
 layout: page
