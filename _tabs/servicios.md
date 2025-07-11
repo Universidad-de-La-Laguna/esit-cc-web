@@ -36,6 +36,15 @@ ssh aluXXXXX@exthost.etsii.ull.es
 
 # Base de datos ORACLE
 
+Acceda a exthost y desde allí invoque a sqlplus
+
+
 # ODN
+
+Aplicación web para la normalización de base de datos
+
+Acceda desde la red universitaria en 
+
+(Online Database Normalization)[http://10.6.7.11:8099/odn/]
 
 
