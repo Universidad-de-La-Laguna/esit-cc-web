@@ -1,5 +1,5 @@
 ---
-title: 📞 Contacto
+title: Contacto
 icon: fas fa-id-card
 order: 4
 ---
@@ -14,7 +14,7 @@ Escuela Superior de Ingeniería y Tecnología
 
 
 <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXXXXX!2dYYYYY!3dZZZZZ!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1234567890abcdef%3A0xabcdef1234567890!2sNombre%20del%20Lugar!5e0!3m2!1ses!2ses!4vXXXXXXXXXXXX!5m2!1ses!2ses"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692.9287221129479!2d-16.321735414191135!3d28.483116941108694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cdbe0b2e24d9%3A0xb5a7dc5dca9b3e53!2sCalculation%20Center%20-%20ESIT!5e1!3m2!1sen!2ses!4v1752234916468!5m2!1sen!2ses"
   width="600"
   height="450"
   style="border:0;"
