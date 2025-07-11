@@ -1,7 +1,7 @@
 ---
 title: Servicios
 icon: fas fa-newspaper
-order: 2
+order: 1
 ---
 
 # Incidencias

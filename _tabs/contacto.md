@@ -1,7 +1,7 @@
 ---
 title: 📞 Contacto
 icon: fas fa-id-card
-order: 6
+order: 4
 ---
 
 Centro de Cálculo 

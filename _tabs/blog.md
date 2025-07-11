@@ -1,7 +1,7 @@
 ---
 title: Blog
 icon: fas fa-rss
-order: 5
+order: 2
 layout: page
 ---
 

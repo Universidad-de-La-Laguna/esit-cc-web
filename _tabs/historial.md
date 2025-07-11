@@ -1,7 +1,7 @@
 ---
 title: Historial
 icon: fas fa-archive
-order: 5
+order: 3
 layout: archives
 ---
 
